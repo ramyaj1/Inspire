@@ -1,0 +1,144 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+/* start of css navigation */
+
+nav {
+    text-align: center;
+    position: fixed;
+    font-family: 'Libre Baskerville', serif;
+    background: rgba(255, 255, 224, 0.5);
+    width: 99.7vw;
+    font-weight: bolder;
+}
+
+nav ul {
+display: flex;
+justify-content: center; 
+/*   remove bullets */
+    list-style-type: none;
+/*    width:60%;*/
+/*    margin: 0 auto;*/
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li:first-child {
+   flex-grow: 2;
+}
+
+nav ul a:link {
+/*    remove underline */
+    text-decoration: none;
+    color: #3B2E26;
+    display: block;
+    padding: 40px 0;
+}
+
+nav ul a:visited {
+   color:  #8B4513;
+}
+
+nav ul a:hover {
+/*   border-bottom: 1px solid #6de3d9;*/
+/*padding-bottom: 8px;    */
+   background: #F3F9FF;
+}
+
+.fa-plane-departure {
+    color: darkblue;
+    padding-right: 50px;
+}
+
+/* end of css navigation */
+
+/*Below is the css styles for the home nav content*/
+
+header {
+    padding: 15%;
+    background-color: aliceblue;
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/15/16/50/gibraltar-2405953__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-width: 5px;  
+    border-style: ridge;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-color: darkseagreen;
+    text-align: right;
+     }
+             
+.strait {
+    
+    display: flex;
+    justify-content: space-between;
+    /*   remove bullets */
+    list-style-type: none;
+    text-align: left;
+    padding: 4%;
+    background-color: floralwhite;
+    border-color: darkkhaki;
+    border-width: 5px;  
+    border-style: ridge;
+    box-shadow: 10px 10px 8px 10px #888888;
+        }
+
+ul{  
+    /* remove bullets */
+    list-style-type: none;
+}
+
+
+h3{ 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+aside {
+    display:block;
+    margin-left: auto;
+  }
+
+/* Above is the css styles for the home nav content*/
+
+/* Below is the css styles for the home section/article of home content*/
+
+.left {
+        float: left;
+        margin-right: 2%;
+        margin-left: 0%;
+        }
+
+.clearfix::before, 
+.clearfix::after {
+        content: " ";
+        display: table;
+        }
+
+ .clearfix::after {
+        clear: both;
+        }
+/* Above is the css styles for the home section/article of home content*/
+
+
+/* Footer for blog page */
+.footer {
+    text-align: left;
+    background-color: rgb(255,249,238);
+    border-color: lavender;
+    border-width: 5px;  
+    border-style: ridge;
+    padding: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;    
+}
+
+/* End of Footer for blog page */
