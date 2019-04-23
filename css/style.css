@@ -19,9 +19,9 @@ nav {
 }
 
 nav ul {
-   display: flex;
-   justify-content: center; 
-   /*remove bullets */
+    display: flex;
+    justify-content: center; 
+    /*remove bullets */
     list-style-type: none;
     margin: 0 auto;
     font-size: xx-large;
@@ -66,9 +66,9 @@ header {
     opacity: 0.75;
     padding-bottom: 25%;
     /*padding-top: 1px;*/
-    color: #FFA500;
+    color: #FFFF00;
     font-style: italic;
-    text-shadow: 2px 2px 8px #FFFF00;
+    text-shadow: 2px 2px 8px #FF0000;
     font-weight: bolder;
     font-size: 28px;
     font-family: georgia;
@@ -84,7 +84,7 @@ header {
     /*   remove bullets */
     list-style-type: none;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     background-color: #FFFAF0;
     border-color: #BC8F8F;
     border-width: thick;  
@@ -107,7 +107,9 @@ ul{
 
 
 h1{
+    font-style: italic;
     text-align: center;
+    font-weight: bold;
     font-family: georgia;
 }
 
