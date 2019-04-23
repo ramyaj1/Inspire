@@ -16,7 +16,7 @@
     border-width: thick;
     border-style: ridge;
     box-shadow: 15px 15px 15px 15px #BC8F8F;
-    border-color: #D2B48C;
+    border-color: #BC8F8F;
     text-shadow: 6px 6px 8px;
     font-weight: bolder;
     text-align: center;
@@ -26,7 +26,7 @@
     font-family: georgia;
     color:#FF4500;
     border-radius: 50px;
-    opacity: 0.79;
+    opacity: 0.7;
     position:relative;
     padding-bottom: 30%;
     padding-top: 2%;
@@ -92,19 +92,19 @@ h2 {
     justify-content: center;
     flex-direction: column;
     overflow-x:hidden;
-    padding: 20px;
-    padding-bottom: 15px;
+    position:relative;
+    padding: 38px;
     /*overflow: auto;*/
-    border-radius: 25px;
+    border-radius: 50px;
     border-style: groove;
     border-width: thick;
-    border-color: #D2B48C;
+    border-color: #BC8F8F;
     text-align: center;
     color:#8B4513;
     font-weight: bolder;
-    background-color: #FFF5EE;
-    opacity: 0.8;
-    box-shadow: 15px 15px 15px 15px #BC8F8F;
+    background-color:#FFFAF0;
+    opacity: 0.7;
+    box-shadow: 15px 15px 15px 15px #D8BFD8;
     font-style: italic;
     font-size: medium;
     font-family: georgia;

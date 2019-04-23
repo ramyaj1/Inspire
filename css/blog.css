@@ -13,7 +13,6 @@ body {
   background: #FFFAF0;
   text-align: center;
   font-weight: bold;
-  font-family: georgia;
 }
 
 /* Header/Blog Title */
@@ -27,7 +26,7 @@ body {
   border-width: thick;
   border-color: #BC8F8F;
   font-family: georgia;
-  text-shadow: 4px 4px 4px;
+  text-shadow: 5px 5px 9px;
   color:#B22222;
   box-shadow: 20px 20px 20px 20px #BC8F8F;
   opacity: 0.6;
@@ -66,11 +65,11 @@ h2 {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  flex-shrink: 20%;
+  flex-shrink: 2;
   min-width: 100%;
   min-height: 100%;
   height:395px;
-  opacity: 0.7px;
+  opacity: 0.7;
   border: 30px transparent;
 }
 
@@ -85,7 +84,8 @@ h2 {
    border-color: #BC8F8F;
    color:#8B4513;
    font-family: georgia;
-   box-shadow: 15px 15px 15px 15px #FFF0F5;
+   box-shadow: 15px 15px 15px 15px  #FFE4C4;
+   opacity: 0.9;
 }
 
 /* Clear floats after the columns */
