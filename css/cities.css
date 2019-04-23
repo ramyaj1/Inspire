@@ -116,6 +116,10 @@ h2 {
     font-size: x-large;
     font-weight: bolder;
   }
+  
+  .floats img{
+      margin-top:25px;
+  }
 
 /*Above - For Images pertaining to the cities with .floats class*/
 

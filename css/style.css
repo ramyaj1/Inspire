@@ -97,8 +97,12 @@ header {
     font-weight: bolder;
     font-size: larger;
     font-family: georgia;
-    
         }
+        
+.strait img {
+    
+    margin-top: 25px;
+}        
 
 ul{  
     /* remove bullets */
