@@ -11,23 +11,21 @@
 
 nav {
     text-align: center;
-    color: #FF4500;
     position: fixed;
     font-family: 'Noto Serif', serif;
-    background: rgba(255, 255, 224,0.11);
     width: 96vw;
     border-radius: 60px;
     z-index: 1;
 }
 
 nav ul {
-display: flex;
-justify-content: center; 
-/*   remove bullets */
+   display: flex;
+   justify-content: center; 
+   /*remove bullets */
     list-style-type: none;
-/*    margin: 0 auto;*/
-font-size: xx-large;
-font-weight:bolder;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-weight:bolder;
 }
 
 nav ul li {
@@ -41,19 +39,12 @@ nav ul li:first-child {
 nav ul a:link {
 /*    remove underline */
     text-decoration: none;
+    display: flex;
+    justify-content: center;
     text-shadow: 2px 4px 8px #FF0000;
-    color: #FF8C00;
-    display: block;
+    color: #FFFF00;
     padding: 40px 0;
 }
-
-/*nav ul a:hover {*/
-/*   border-bottom: 1px solid #6de3d9;*/
-/*padding-bottom: 8px;    */
-/*   background:#FFFFE0;*/
-/*   opacity: 0.5;*/
-/*}*/
-
 
 /* end of css navigation */
 
@@ -77,9 +68,10 @@ header {
     /*padding-top: 1px;*/
     color: #FFA500;
     font-style: italic;
-    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 2px 2px 8px #FFFF00;
     font-weight: bolder;
-    font-size: 29px;
+    font-size: 28px;
+    font-family: georgia;
 
      }
              
@@ -92,7 +84,7 @@ header {
     /*   remove bullets */
     list-style-type: none;
     text-align: center;
-    padding: 6%;
+    padding: 5%;
     background-color: #FFFAF0;
     border-color: #BC8F8F;
     border-width: thick;  
@@ -103,6 +95,9 @@ header {
     color:#8B4513;
     font-style: italic;
     font-weight: bolder;
+    font-size: larger;
+    font-family: georgia;
+    
         }
 
 ul{  
@@ -111,10 +106,16 @@ ul{
 }
 
 
-h3{ 
+h1{
+    text-align: center;
+    font-family: georgia;
+}
+
+h3{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    font-family: georgia;
 }
 
 /* Above is the css styles for the home header content*/
@@ -156,7 +157,13 @@ h3{
     border-radius: 30px;
     font-size: 16px;
     font-weight: bolder;
+    font-family: georgia;
     color:#8B4513;
+}
+
+.footer a {
+    color:#191970;
+    text-decoration:underline;
 }
 
 /* End of Footer for Index.html page */

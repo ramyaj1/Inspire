@@ -13,6 +13,7 @@ body {
   background: #FFFAF0;
   text-align: center;
   font-weight: bold;
+  font-family: georgia;
 }
 
 /* Header/Blog Title */
@@ -30,6 +31,8 @@ body {
   color:#B22222;
   box-shadow: 20px 20px 20px 20px #BC8F8F;
   opacity: 0.6;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -101,7 +104,8 @@ h2 {
   border-style: ridge;
   border-width: thick;
   box-shadow: 15px 15px 15px 15px #BC8F8F;
-  font-style: italic; 
+  font-style: italic;
+  font-family: georgia;
   border-color: #FFB6C1;
   color:#8B4513;
 }

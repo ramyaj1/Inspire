@@ -19,31 +19,26 @@
     border-color: #D2B48C;
     text-shadow: 6px 6px 8px;
     font-weight: bolder;
-    text-align: right;
+    text-align: center;
+    width: 100%;
     font-style: italic;
-    font-size: 26px;
+    font-size: 28px;
+    font-family: georgia;
     color:#FF4500;
     border-radius: 50px;
-    opacity: 0.9;
+    opacity: 0.85;
     position:relative;
-    padding-bottom: 35%;
-    padding-top: 1%;
+    padding-bottom: 30%;
+    padding-top: 2%;
 }
 
-.title ul a:link {
-    display: block;
+.title ul a {
     text-decoration: none;
-    color: #FFD700;
+    color: #FFFF00;
     text-align: center;
-    text-shadow: 2px 2px 8px #FF8C00;
+    text-shadow: 2px 2px 8px #FF0000;
     font-style: italic;
     font-weight: bolder;
-    position: relative;
-    font-size: 33px;
-}
-
-.title ul a:visited {
-   color: #FFA500;
 }
 
 .title ul li {
@@ -52,6 +47,10 @@
 
 .title ul li:first-child {
    flex-grow: 2;
+}
+
+.title h1 {
+    text-align: right;
 }
 
 /* End of cities header css styling */
@@ -94,6 +93,7 @@ h2 {
     flex-direction: column;
     overflow-x:hidden;
     padding: 20px;
+    padding-bottom: 10px;
     /*overflow: auto;*/
     border-radius: 25px;
     border-style: groove;
@@ -103,12 +103,19 @@ h2 {
     color:#8B4513;
     font-weight: bolder;
     background-color: #FFF5EE;
-    opacity: 0.9;
-    box-shadow: 15px 10px 10px 15px #BC8F8F;
+    opacity: 0.8;
+    box-shadow: 15px 15px 15px 15px #BC8F8F;
     font-style: italic;
-    font-size: 16px;
+    font-size: medium;
+    font-family: georgia;
   }
   
+  .floats a {
+    color: #8B4513;
+    text-decoration: overline;
+    font-size: x-large;
+    font-weight: bolder;
+  }
 
 /*Above - For Images pertaining to the cities with .floats class*/
 
