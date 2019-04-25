@@ -26,7 +26,7 @@
     font-family: georgia;
     color:#FF4500;
     border-radius: 50px;
-    opacity: 0.7;
+    opacity: 0.75;
     position:relative;
     padding-bottom: 30%;
     padding-top: 2%;
@@ -95,7 +95,7 @@ h2 {
     position:relative;
     padding: 38px;
     /*overflow: auto;*/
-    border-radius: 50px;
+    border-radius: 55px;
     border-style: groove;
     border-width: thick;
     border-color: #BC8F8F;
@@ -104,7 +104,7 @@ h2 {
     font-weight: bolder;
     background-color:#FFFAF0;
     opacity: 0.7;
-    box-shadow: 15px 15px 15px 15px #D8BFD8;
+    box-shadow: 16px 16px 16px 16px #BC8F8F;
     font-style: italic;
     font-size: medium;
     font-family: georgia;
